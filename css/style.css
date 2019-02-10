@@ -1,0 +1,417 @@
+/* #home{
+	height:600px;
+	background-color:lightgray;
+	background-image:url(images/hexagonal-pattern_1051-833.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	color:red;
+	font-family: 'Teko', sans-serif;
+	font-size: 16px;
+}
+#home header{
+	position:relative;
+	top:60px;
+	background:white;
+}
+nav{
+	margin-top:22px;
+	text-align:center;
+}
+nav ul{
+	display: inline-block;
+}
+nav ul li{
+	float: left;
+}
+nav ul li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	padding:28px 20px;
+	font-weight:500;
+	color:black;
+}
+nav ul li a:hover{
+	background:#dab57a;
+	color:white;
+}
+.icons{
+	font-size: 1.5em;
+    text-align: center;
+    color: black;
+    padding: 16px;
+    letter-spacing: 7px;
+}
+.icons i:hover{
+	color:#dab57a;
+} */
+
+#home{
+	height: 600px;
+	background-color: white;
+	background-image: url(http://preview.uideck.com/items/fusion/assets/img/hero-area.svg);
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position: center center;
+	font-family: 'Open Sans', sans-serif;
+
+	font-size: 14px;
+}
+
+#home header{
+	background:white;
+}
+
+
+.col-9{
+	float: right;
+}
+
+nav{
+	margin-top:15px;
+	text-align:right;
+	
+}
+
+nav ul{
+	display: inline-block;
+	
+}
+
+nav ul li{
+	float: left;
+	
+	
+}
+
+nav ul li a{
+	
+	text-decoration: none;
+	padding:7px 10px;
+	font-weight:400;
+	color: #333;
+	
+
+}
+
+nav ul li a:hover{	
+	color:rgb(246, 55, 84);
+	transition: 0.6s;
+} 
+
+.button1{
+	color: white;
+	background-color: rgb(246, 55, 84);
+	border-radius: 30px;
+	margin-top: 20px;
+	text-decoration: none;
+	margin-right: 10px;
+	font-size: 14px;
+	padding: 10px 30px;
+}
+
+.button2{
+	color: rgb(246, 55, 84);
+	background-color: white;
+	border-radius: 30px;
+	border: 1px solid rgb(246, 55, 84);
+	margin-top: 20px;
+	text-decoration: none;
+	font-size: 14px;
+	padding: 10px 30px;
+}
+
+
+.contents h2{
+	color: #222;
+	font-size: 42px;
+	font-weight: 700;
+	line-height: 60px;
+	margin-bottom: 10px;
+	font-family:'Arvo', serif;
+
+}
+
+.contents p{
+	color: rgb(171, 172, 174);
+	font-weight: 400;
+	margin: 0px;
+	font-size: 14px;
+	line-height: 25px;
+}
+
+.contents p{
+	margin-bottom: 30px;
+}
+
+.headButton a:hover{
+	color:rgb(246, 55, 84);
+	background-color: white;
+	border: 1px dotted rgb(246, 55, 84);
+	transition: 0.5s
+}
+
+.headButton1 a:hover{
+	color:white;
+	background-color: rgb(246, 55, 84);
+	transition: 0.5s;
+}
+
+.headButton1{
+	margin-left: 195px;
+	margin-top: -13px;
+}
+
+.services{
+	flex-wrap: wrap;
+	margin-left: 60px;
+}
+
+.services .col-3{
+	margin-right: 25px;
+	margin-top: 40px;
+	width: 350px;
+	box-shadow: 0px 3px 17px 2px rgba(214,214,214,1);
+}
+
+.services i{
+	background: white;
+	color: rgb(246, 55, 84);
+	font-size: 30px;
+	margin-left: 150px;
+	margin-top: 30px;
+
+}
+
+.services h3{
+	font-family:'Arvo', serif;
+	color: rgb(90, 92, 98);
+	margin-top: 25px;
+	text-align: center;
+}
+
+.services p{
+	color: rgb(171, 172, 174);
+	text-align: center;
+	margin-top: 25px;
+}
+
+.names1{
+	margin-right: 30px
+}
+
+/* .services1 .col-3{
+	flex-wrap: wrap;
+	box-shadow: 0px 3px 17px 2px rgba(214,214,214,1);
+	margin-right: 10px;
+	border: 1px solid black
+} */
+
+.content-left{
+	box-shadow: 0px 3px 17px 2px rgba(214,214,214,1);
+	height: 130px;
+}
+.salam{
+	box-shadow: 0px 3px 17px 2px rgba(214,214,214,1);
+	height: 130px;
+	margin-top: -30px;
+}
+.content-right{
+	box-shadow: 0px 3px 17px 2px rgba(214,214,214,1);
+	height: 130px;
+}
+
+.aleykum{
+	box-shadow: 0px 3px 17px 2px rgba(214,214,214,1);
+	height: 130px;
+	margin-top: 25px;
+}
+
+.leftbox{
+	margin-bottom: 65px;
+}
+
+.right{
+	margin-bottom: 35px;
+}
+
+.right2{
+	box-shadow: 0px 3px 17px 2px rgba(214,214,214,1);
+	height: 130px;
+	margin-bottom: 25px;
+}
+
+.right3{
+	box-shadow: 0px 3px 17px 2px rgba(214,214,214,1);
+	height: 130px;
+}
+
+.ourteam{
+	flex-wrap: wrap; 
+	margin-top: 100px;
+}
+
+.about ul{
+	display: flex;
+	margin-left: 20px;
+	margin-top: -10px;
+}
+
+.about ul li{
+	margin-right: 20px;
+}
+
+#team{
+	background-color: rgb(249, 249, 249);
+}
+
+.ourteam .col-5{
+	margin-right:  100px;
+
+}
+
+.ourteam .col-5 .ericbox:hover{
+	box-shadow: 0px 3px 27px 6px rgba(156,153,156,1);
+	transition: 0.7s;
+}
+
+.ourteam .col-5 .marijnbox:hover{
+	box-shadow: 0px 3px 27px 6px rgba(156,153,156,1);
+	transition: 0.7s;
+}
+
+.ourteam .col-5 .durwinbox:hover{
+	box-shadow: 0px 3px 27px 6px rgba(156,153,156,1);
+	transition: 0.7s;
+}
+
+.ourteam .col-5 .davidbox:hover{
+	box-shadow: 0px 3px 27px 6px rgba(156,153,156,1);
+	transition: 0.6s;
+}
+.headteam{
+	margin-top: 70px;
+} 
+
+.box1:hover{
+	box-shadow: 0px 3px 22px 16px rgba(214,214,214,1);
+}
+
+.salam:hover{
+	box-shadow: 0px 3px 22px 16px rgba(214,214,214,1);
+}
+
+.aleykum:hover{
+	box-shadow: 0px 3px 22px 16px rgba(214,214,214,1);
+}
+
+.box4:hover{
+	box-shadow: 0px 3px 22px 16px rgba(214,214,214,1);
+}
+
+.right2:hover{
+	box-shadow: 0px 3px 22px 16px rgba(214,214,214,1);
+}
+
+.right3:hover{
+	box-shadow: 0px 3px 22px 16px rgba(214,214,214,1);
+}
+
+
+.title{
+	font-size: 18px;
+	font-family:'Arvo', serif;
+	margin-bottom: 15px;
+}
+
+.description{
+	margin-bottom: 20px;
+
+}
+
+.buttonpricing{
+	font-size: 14px;
+	border-radius: 30px;
+	font-weight: 400;
+	padding: 15px 35px;
+	color: #fff;
+	background: rgb(246, 55, 84);
+}
+
+.col4:hover{
+	box-shadow: 0px 3px 27px 6px rgba(156,153,156,1);
+}
+
+.icon-box i:hover{
+	color: rgb(246, 55, 84);
+	transition: 0.5s;
+}
+
+.container .row .priceee:hover{
+	box-shadow: 0px 3px 27px 6px rgba(156,153,156,1);
+	transition: 0.5s;
+}
+
+.container .row .priceee{
+	box-shadow: 0px 3px 22px 16px rgba(214,214,214,1);
+}
+
+#people .container .row .col-4 img{
+	width: inherit;
+	border-radius: 50%;
+	display: inline-block;
+	padding: 7px;
+}
+
+#people{
+	background: rgb(246, 55, 84);
+	height: 526px;
+}
+
+#people .container .row  .col-4 {
+	background: white;
+	margin-top: 60px; 
+	border-radius: 5px;
+	margin-right: 15px;
+	height: 360px;
+	width: 360px;
+	text-align: center;
+}
+
+.anaya{
+	margin-left: 45px;
+}
+
+.advert-text h4{
+	font-size: 38px;
+	color: #222;
+	font-family: 'Arvo',serif;
+}
+
+.advert-text p{
+	font-size: 14px;
+	color: rgb(171, 172, 174);
+	font-family: 'Open Sans', sans-serif;
+	line-height: 25px;
+	margin-top: 15px;
+}
+
+#advert .container .row .col-6 a{
+	border-radius: 30px;
+	font-size: 14px;
+	background: rgb(246, 55, 84);
+	color: #fff;
+	padding: 15px 35px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h2{
+    text-align: center
+}
+.line{
+   
+    width: 100px;
+    height: 1px;
+    background:  #f63854;
+    margin-left: 505px
+}
